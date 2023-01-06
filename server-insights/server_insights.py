@@ -49,7 +49,7 @@ async def on_guild_join(guild):
     try:
         await channel.send('Thank you for adding me to your server. My default prefix is **"!"** (which you can change if you wish). '
                            'To get started, you should enter the **"!help"** command, as well as the **!archive** command.\n\n'
-                           'If there are any issues, do not hesitate to contact ogen#3091.')
+                           'If there are any issues, do not hesitate to contact _.')
     except Exception as e:
         print("Could not find a channel to send on_guild_join message to.")
         raise e
@@ -143,4 +143,4 @@ for cog in os.listdir("cogs"):
 
 
 
-bot.run("Nzg3MzM4MDU2OTUyNTc4MDU5.X9TftA.kb3Qk7jJ45aFc4afG7E1Fgy5FRI")
+bot.run("token")
