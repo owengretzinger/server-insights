@@ -143,4 +143,4 @@ for cog in os.listdir("cogs"):
 
 
 
-bot.run("token")
+bot.run("insert_token")
